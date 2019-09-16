@@ -6,9 +6,9 @@
     <?php start_page('TD2')?>
     <form action="data-processing.php" method="post" style="display: flex; flex-direction: column; align-items: center; justify-content: center">
             <input type="text" name="id" placeholder="Identifiant">
-            <input type="radio" id="sexe" name="homme">
+            <input type="radio" id="homme" name="sexe">
             <label for="homme">homme</label>
-            <input type="radio" id=sexe" name="femme">
+            <input type="radio" id=femme" name="sexe">
             <label for="femme">femme</label>
             <input type="text" name="mail" placeholder="E-mail">
             <input type="password" name="mpd" placeholder="Mot de passe">
