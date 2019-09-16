@@ -19,6 +19,15 @@
                 <option value=""> Choisir pays</option>
                 <option value="France" name="france">France</option>
                 <option value="Allemagne" name="allemagne">Allemagne</option>
+                <option value="Australie" name="Australie">Australie</option>
+                <option value="Etats-Unis" name="Etats-Unis">Etats-Unis</option>
+                <option value="Kenya" name="Kenya">Kenya</option>
+                <option value="Belgique" name="Belgique">Belgique</option>
+                <option value="Italie" name="Italie">Italie</option>
+                <option value="Russie" name="Russie">Russie</option>
+                <option value="Espagne" name="Espagne">Espagne</option>
+                <option value="Portugal" name="Portugal">Portugal</option>
+                <option value="Autres" name="autres">Autres</option>
             </select>
             <input type="checkbox" id="conditions" name="conditions">
             <label for="conditions">Conditions Generales</label>
