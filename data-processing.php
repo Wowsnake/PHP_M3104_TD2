@@ -19,5 +19,9 @@
     else{
         echo '<br/><strong>Bouton non gere ! </strong><br/>';
     }
+    $dbLink=mysqli_connect('mysql-steffen.alwaysdata.net','steffen','salut123456')
+    or die('Erreur de connexion aus erveur:'.mysqli_connect_error());
 
+    mysqli_select_db($dbLink , 'steffen_php')
+    or die('Erreur dans la selection de la base : ' . mysqli_error($dbLink));
     ?>
