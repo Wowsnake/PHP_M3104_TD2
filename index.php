@@ -4,7 +4,7 @@
 ?>
 <DOCTYPE html>
     <?php start_page('TD2')?>
-    <form style="align-items: center"
+    <form action="data-processing.php" method="post" style="display: flex; flex-direction: column; align-items: center;"
             <input type="text" name="id" placeholder="Identifiant">
             <input type="radio" id="homme" name="homme">
             <label for="homme">homme</label>
