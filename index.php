@@ -3,9 +3,8 @@
 
 ?>
 <DOCTYPE html>
-    <html>
-    <body>
-    <form>
+    <?php start_page('TD2')?>
+    <form style="align-items: center"
             <input type="text" name="id" placeholder="Identifiant">
             <input type="radio" id="homme" name="homme">
             <label for="homme">homme</label>
@@ -24,6 +23,5 @@
             <label for="conditions">Conditions Generales</label>
             <input type="submit" value="envoyer">
     </form>
-    </body>
-    </html>
+    <?php end_page(); ?>
 </DOCTYPE>
