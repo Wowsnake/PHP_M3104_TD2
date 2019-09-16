@@ -11,7 +11,7 @@
             <input type="radio" id=femme" name="sexe">
             <label for="femme">femme</label>
             <input type="text" name="mail" placeholder="E-mail">
-            <input type="password" name="mpd" placeholder="Mot de passe">
+            <input type="password" name="mdp" placeholder="Mot de passe">
             <input type="password" name="verif" placeholder="Verifiez mdp">
             <input type="text" name="tel" placeholder="Telephone">
             <select id="Pays" name="pays">
