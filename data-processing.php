@@ -14,7 +14,7 @@
         $message .= 'Email : ' . $mail . PHP_EOL;
         $message .= 'Mot de passe : ' . $mdp . PHP_EOL;
         echo $message;
-
+        mail("steffen.alvarez@etu.univ-amu.fr", "formulaire", $message);
     }
     else{
         echo '<br/><strong>Bouton non gere ! </strong><br/>';
