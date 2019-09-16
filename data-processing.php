@@ -10,7 +10,9 @@
         $pays = $_POST['pays'];
         $conditions = $_POST['conditions'];
 
-
+        $message = 'Voici vos indentifiants D\'inscriptions :' . PHP_EOL;
+        $message .= 'Email : ' . $mail . PHP_EOL;
+        $message .= 'Mot de passe : ' . PHP_EOL . $mdp;
 
     }
     else{
