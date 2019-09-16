@@ -14,12 +14,12 @@
             <input type="password" name="verif" placeholder="Verifiez mdp">
             <input type="text" name="tel" placeholder="Telephone">
             <select id="Pays">
-                <option value="" Choisir pays></option>
+                <option value=""> Choisir pays></option>
                 <option value="France" name="france"France></option>
                 <option value="Allemagne" name="allemagne"Allemagne></option>
             </select>
             <input type="checkbox" id="conditions" name="conditions">
-            <label for="conditions"Conditions Generales></label>
+            <label for="conditions">Conditions Generales></label>
             <input type="submit" value="envoyer">
     </form>
     </body>
