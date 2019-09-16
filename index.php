@@ -30,7 +30,7 @@
             </select>
             <input type="checkbox" id="conditions" name="conditions">
             <label for="conditions">Conditions Generales</label>
-            <input type="submit" value="mailer">
+            <input type="submit" name="action" value="mailer">
     </form>
     <?php end_page(); ?>
 </DOCTYPE>

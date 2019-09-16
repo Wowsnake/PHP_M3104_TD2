@@ -10,6 +10,8 @@
         $pays = $_POST['pays'];
         $conditions = $_POST['conditions'];
 
+
+
     }
     else{
         echo '<br/><strong>Bouton non gere ! </strong><br/>';
