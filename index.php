@@ -14,7 +14,7 @@
             <input type="password" name="mpd" placeholder="Mot de passe">
             <input type="password" name="verif" placeholder="Verifiez mdp">
             <input type="text" name="tel" placeholder="Telephone">
-            <select id="Pays">
+            <select id="Pays" name="pays">
                 <option value=""> Choisir pays</option>
                 <option value="France" name="france">France</option>
                 <option value="Allemagne" name="allemagne">Allemagne</option>
@@ -30,7 +30,7 @@
             </select>
             <input type="checkbox" id="conditions" name="conditions">
             <label for="conditions">Conditions Generales</label>
-            <input type="submit" value="envoyer">
+            <input type="submit" value="mailer">
     </form>
     <?php end_page(); ?>
 </DOCTYPE>
