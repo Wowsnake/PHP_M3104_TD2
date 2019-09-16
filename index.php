@@ -15,8 +15,8 @@
             <input type="text" name="tel" placeholder="Telephone">
             <select id="Pays">
                 <option value=""> Choisir pays></option>
-                <option value="France" name="france"France></option>
-                <option value="Allemagne" name="allemagne"Allemagne></option>
+                <option value="France" name="france">France></option>
+                <option value="Allemagne" name="allemagne">Allemagne></option>
             </select>
             <input type="checkbox" id="conditions" name="conditions">
             <label for="conditions">Conditions Generales></label>
