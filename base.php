@@ -1,7 +1,7 @@
 <?php
-$dbLink = mysqli_connect('mysql-christophe.alwaysdata.net', '173824', 'admin_root26+')
+$dbLink = mysqli_connect('mysql-steffen.alwaysdata.net', 'steffen_php', 'salut123')
 or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
-mysqli_select_db($dbLink , 'christophe_td2')
+mysqli_select_db($dbLink , 'steffen_php')
 or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));
 $query = 'SELECT id, email, date FROM user';
 if(!($dbResult = mysqli_query($dbLink, $query)))

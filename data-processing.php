@@ -19,12 +19,12 @@ if ($action == 'Mailer') {
 } else {
     echo '<br/><strong>Bouton non géré !</strong><br/>';
 }
-if (mail('christophe.ruiz@etu.univ-amu.fr', 'mail du TD2', $message))
+if (mail('steffen.alvarez@etu.univ-amu.fr', 'mail du TD2', $message))
     echo 'Mail envoyé !';
 else echo 'Mail non envoyé :(';
-$dbLink = mysqli_connect('mysql-christophe.alwaysdata.net', '173824', 'admin_root26+')
+$dbLink = mysqli_connect('mysql-steffen.alwaysdata.net', 'steffen_php', 'salut123')
 or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
-mysqli_select_db($dbLink , 'christophe_td2')
+mysqli_select_db($dbLink , 'steffen_php')
 or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));
 $today = date('Y-m-d');
 $query = 'INSERT INTO user (login, sexe, email, password, phone, pays, date)';
