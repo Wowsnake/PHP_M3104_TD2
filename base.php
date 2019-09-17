@@ -1,5 +1,5 @@
 <?php
-$dbLink = mysqli_connect('mysql-steffen.alwaysdata.net', 'steffen_php', 'salut123')
+$dbLink = mysqli_connect('mysql-steffen.alwaysdata.net', 'steffen_php', 'salut12345')
 or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
 mysqli_select_db($dbLink , 'steffen_php')
 or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));
