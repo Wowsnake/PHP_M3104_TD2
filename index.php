@@ -1,36 +1,32 @@
 <?php
-    include 'utils.inc.php';
-
+include 'utils.inc.php';
 ?>
-<DOCTYPE html>
-    <?php start_page('TD2')?>
-    <form action="data-processing.php" method="post" style="display: flex; flex-direction: column; align-items: center; justify-content: center">
+<?php start_page('TD2'); ?>
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; width = 100%; height = 100%;">
+        <form action="data-processing.php" method="post" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
             <input type="text" name="id" placeholder="Identifiant">
-            <input type="radio" id="homme" name="sexe">
-            <label for="homme">homme</label>
-            <input type="radio" id=femme" name="sexe">
-            <label for="femme">femme</label>
+            <input type="radio" id="male" name="sexe" value="Homme">
+            <label for="male">Homme</label>
+            <input type="radio" id="female" name="sexe" value="Femme">
+            <label for="female">Femme</label>
             <input type="text" name="mail" placeholder="E-mail">
-            <input type="password" name="mdp" placeholder="Mot de passe">
-            <input type="password" name="verif" placeholder="Verifiez mdp">
-            <input type="text" name="tel" placeholder="Telephone">
-            <select id="Pays" name="pays">
-                <option value=""> Choisir pays</option>
-                <option value="France" name="france">France</option>
-                <option value="Allemagne" name="allemagne">Allemagne</option>
-                <option value="Australie" name="Australie">Australie</option>
-                <option value="Etats-Unis" name="Etats-Unis">Etats-Unis</option>
-                <option value="Kenya" name="Kenya">Kenya</option>
-                <option value="Belgique" name="Belgique">Belgique</option>
-                <option value="Italie" name="Italie">Italie</option>
-                <option value="Russie" name="Russie">Russie</option>
-                <option value="Espagne" name="Espagne">Espagne</option>
-                <option value="Portugal" name="Portugal">Portugal</option>
-                <option value="Autres" name="autres">Autres</option>
+            <input type="password" name="pwd" placeholder="Mot de passe">
+            <input type="password" name="verifPwd" placeholder="Vérifiez le mdp">
+            <input type="text" name="phone" placeholder="Téléphone">
+            <select id="pays" name="pays">
+                <option value="">Selectionner Pays</option>
+                <option value="France" name="fr">France</option>
+                <option value="Belgique" name="bg">Belgique</option>
+                <option value="Monaco" name="mn">Monaco</option>
+                <option value="Autre" name="autre">Autre</option>
             </select>
-            <input type="checkbox" id="conditions" name="conditions">
-            <label for="conditions">Conditions Generales</label>
-            <input type="submit" name="action" value="mailer">
-    </form>
-    <?php end_page(); ?>
-</DOCTYPE>
+            <input type="checkbox" id="cgu" name="cgu">
+            <label for="cgu">J'accepte les Conditions Générales d'Utilisation</label>
+            <input name="action" type="submit" value="Mailer">
+        </form>
+        <div style = "height: 1%;"></div>
+        <a href="base.php"><button>Lire la BD</button></a>
+        <a href="login.php?step=LOGIN"><button>LOGIN</button></a>
+    </div>
+
+<?php end_page(); ?>

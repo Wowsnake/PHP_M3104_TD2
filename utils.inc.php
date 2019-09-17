@@ -1,12 +1,14 @@
 <?php
-function start_page($title)
+function start_page ($title)
 {
-    echo ' <!DOCTYPE html> <lang="fr">
- <head><title>' . PHP_EOL . $title . '</title></head><body>' . PHP_EOL;
+    echo '<!DOCTYPE html> ' . PHP_EOL .
+        '<html lang=fr> ' . PHP_EOL .
+        '<head>
+                    <title>' . $title . '</title>
+                  </head>
+                  <body>' . PHP_EOL;
 };
-function end_page()
-{
+function end_page (){
     echo '</body>
                   </html>';
 }
-?>
