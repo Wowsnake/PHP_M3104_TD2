@@ -3,9 +3,9 @@ include 'utils.inc.php';
 $login = $_POST['login'];
 $pwd = $_POST['pwd'];
 // BD
-$dbLink = mysqli_connect('mysql-steffen.alwaysdata.net', 'steffen_php', 'salut12345')
+$dbLink = mysqli_connect('mysql-steffen.alwaysdata.net', 'steffen_td2', 'salut123456')
 or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
-mysqli_select_db($dbLink , 'steffen_php')
+mysqli_select_db($dbLink , 'steffen_td2')
 or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));
 $query = 'SELECT * FROM user WHERE login = \'' . $login . '\'';
 if(!($dbQuery = mysqli_query($dbLink, $query)))
