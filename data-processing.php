@@ -63,6 +63,3 @@
     ?>
     <br>
     <a href=".."><button>Retour</button></a>
-    <form action="data-processing.php" method="post">
-        <input type="submit" value="rec">
-    </form>
