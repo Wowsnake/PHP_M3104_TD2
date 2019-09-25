@@ -32,7 +32,7 @@ include 'utils.inc.php';
         $login = 'login.php?step=LOGIN';
         ?>
         <a href="<?= $rub1addr; ?>"><button><?= $rub1; ?></button></a>
-        <a href="<?= $log; ?>"><button><?= $login; ?></button></a>
+        <a href="<?= $login; ?>"><button><?= $log; ?></button></a>
     </div>
 
 <?php end_page(); ?>
