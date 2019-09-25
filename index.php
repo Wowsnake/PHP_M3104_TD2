@@ -31,8 +31,8 @@ include 'utils.inc.php';
         $log = 'Login';
         $login = 'login.php?step=LOGIN';
         ?>
-        <a href="<?= $rub1addr; ?>"><?= $rub1; ?><button>Lire la BD</button></a>
-        <a href="<?= $log; ?>"><?= $login; ?><button>LOGIN</button></a>
+        <a href="<?= $rub1addr; ?>"><button><?= $rub1; ?></button></a>
+        <a href="<?= $log; ?>"><button><?= $login; ?></button></a>
     </div>
 
 <?php end_page(); ?>
