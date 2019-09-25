@@ -25,8 +25,14 @@ include 'utils.inc.php';
             <input name="action" type="submit" value="Mailer">
         </form>
         <div style = "height: 1%;"></div>
-        <a href="base.php"><button>Lire la BD</button></a>
-        <a href="login.php?step=LOGIN"><button>LOGIN</button></a>
+        <?php
+        $rub1 = 'Lire la BD';
+        $rub1addr = 'base.php';
+        $log = 'Login';
+        $login = 'login.php?step=LOGIN';
+        ?>
+        <a href="<?= $rub1addr; ?>"><?= $rub1; ?><button>Lire la BD</button></a>
+        <a href="<?= $log; ?>"><?= $login; ?><button>LOGIN</button></a>
     </div>
 
 <?php end_page(); ?>
